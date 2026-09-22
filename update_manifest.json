@@ -1,0 +1,18 @@
+{
+  "version": "10.1.1plus",
+  "channel": "stable",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.1.1plus/Power_Setup_v10.1.1plus.exe",
+  "file_name": "Power_Setup_v10.1.1plus.exe",
+  "sha256": "D190A04717AB734BE7E86FDFD1B8B469B333747B0D49FCD10A6CCFDA3CB3F50B",
+  "mandatory": false,
+  "install_mode": "open",
+  "notes": [
+    "v10.1.1plus 原版更新",
+    "所有产品 CSV 统一进行 BOM/编码检测，兼容 UTF-8、GBK/GB18030、UTF-16、Big5 等常见格式",
+    "同一品牌带有 (1)、(2) 等副本后缀的产品 CSV 自动归并到同一个品牌目录",
+    "未勾选的生成类型不再遗留散落的中间 CSV 文件",
+    "生成文件清单正常显示产品 CSV，产品 CSV、品牌 Excel 和 product.json 集中保存在品牌输出目录",
+    "产品系列超过 99 条时，自动创建 collection 文件夹，每个集合 CSV 最多保存 99 条"
+  ],
+  "restart_args": []
+}
