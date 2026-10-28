@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.2plus/Power_Setup_v10.2.2plus_InnoSetup.exe",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.3plus/Power_Setup_v10.2.3plus_InnoSetup.exe",
   "install_mode": "open",
-  "version": "10.2.2plus",
+  "version": "10.2.3plus",
   "notes": [
     "改用 Inno Setup 安装包；安装时保留已有 .env 和 clause_config.json",
     "修复打包环境中 HTTPS 请求失败的问题，恢复应用更新、公告和 SerpApi 网络请求",
-    "Smart Collections GraphQL 支持一次选择多个 CSV 文件；只生成 Smart Collections 请求，跳过 Manual Collections",
+    "数据处理时自动生成 Smart Collections GraphQL 请求；系列 GraphQL 支持多个 CSV，只生成 Smart Collections 请求并跳过 Manual Collections",
     "保留 Shopify Pages、Smart / Manual Collections 及其他现有功能"
   ],
-  "file_name": "Power_Setup_v10.2.2plus_InnoSetup.exe",
-  "sha256": "559aa12691d194fef54ca1934a4314d2ad65966e05001b6d2157bdcb514343d7",
+  "file_name": "Power_Setup_v10.2.3plus_InnoSetup.exe",
+  "sha256": "2dc4f87b8fa8273b084948a8e401edd6985277b5feab6c48a66d1216dbb92ae0",
   "mandatory": false,
   "restart_args": []
 }
