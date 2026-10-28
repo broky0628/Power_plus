@@ -1,15 +1,16 @@
 {
-  "restart_args": [],
+  "channel": "stable",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.1plus/Power_Setup_v10.2.1plus_PyInstaller.exe",
+  "install_mode": "open",
+  "version": "10.2.1plus",
   "notes": [
-    "PyInstaller 便携版 ZIP：解压后运行 Power.exe，无需 Windows 安装器",
-    "应用内更新使用 ZIP 包更新程序目录",
+    "Python/Tkinter 自定义安装界面，由 PyInstaller 打包；不使用 Windows Installer/MSI",
+    "可选安装目录并保留已有 .env 和 clause_config.json",
     "SerpApi 连接失败时显示脱敏后的底层原因和排查提示",
     "保留 Shopify Smart / Manual Collections 与 Page GraphQL 创建功能"
   ],
-  "version": "10.2.1plus",
-  "file_name": "Power_10.2.1plus_portable.zip",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.1plus/Power_10.2.1plus_portable.zip",
-  "channel": "stable",
+  "file_name": "Power_Setup_v10.2.1plus_PyInstaller.exe",
+  "sha256": "0916040b2c88795cb2b45ef520ed6e03205f8c32a5e9bcd9d8366087cca92183",
   "mandatory": false,
-  "sha256": "d2f4cb93c9f9d53c0f06322528e9353d5e43fadd5cd9ffb1928024798c00a800"
+  "restart_args": []
 }
