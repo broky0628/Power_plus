@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.1plus/Power_Setup_v10.2.1plus_PyInstaller.exe",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.2plus/Power_Setup_v10.2.2plus_InnoSetup.exe",
   "install_mode": "open",
-  "version": "10.2.1plus",
+  "version": "10.2.2plus",
   "notes": [
-    "Python/Tkinter 自定义安装界面，由 PyInstaller 打包；不使用 Windows Installer/MSI",
-    "可选安装目录并保留已有 .env 和 clause_config.json",
-    "SerpApi 连接失败时显示脱敏后的底层原因和排查提示",
-    "保留 Shopify Smart / Manual Collections 与 Page GraphQL 创建功能"
+    "改用 Inno Setup 安装包；安装时保留已有 .env 和 clause_config.json",
+    "修复打包环境中 HTTPS 请求失败的问题，恢复应用更新、公告和 SerpApi 网络请求",
+    "Smart Collections GraphQL 支持一次选择多个 CSV 文件；只生成 Smart Collections 请求，跳过 Manual Collections",
+    "保留 Shopify Pages、Smart / Manual Collections 及其他现有功能"
   ],
-  "file_name": "Power_Setup_v10.2.1plus_PyInstaller.exe",
-  "sha256": "0916040b2c88795cb2b45ef520ed6e03205f8c32a5e9bcd9d8366087cca92183",
+  "file_name": "Power_Setup_v10.2.2plus_InnoSetup.exe",
+  "sha256": "559aa12691d194fef54ca1934a4314d2ad65966e05001b6d2157bdcb514343d7",
   "mandatory": false,
   "restart_args": []
 }
