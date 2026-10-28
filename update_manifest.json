@@ -1,18 +1,16 @@
 {
-  "version": "10.1.1plus",
+  "version": "10.2plus",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.1.1plus/Power_Setup_v10.1.1plus.exe",
-  "file_name": "Power_Setup_v10.1.1plus.exe",
-  "sha256": "D190A04717AB734BE7E86FDFD1B8B469B333747B0D49FCD10A6CCFDA3CB3F50B",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2plus/Power_Setup_v10.2plus.exe",
+  "file_name": "Power_Setup_v10.2plus.exe",
+  "sha256": "800a2e13d6d9346ae727888c3fe740951f47ee62a2a2b227dcb0989f877d4c73",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "v10.1.1plus 原版更新",
-    "所有产品 CSV 统一进行 BOM/编码检测，兼容 UTF-8、GBK/GB18030、UTF-16、Big5 等常见格式",
-    "同一品牌带有 (1)、(2) 等副本后缀的产品 CSV 自动归并到同一个品牌目录",
-    "未勾选的生成类型不再遗留散落的中间 CSV 文件",
-    "生成文件清单正常显示产品 CSV，产品 CSV、品牌 Excel 和 product.json 集中保存在品牌输出目录",
-    "产品系列超过 99 条时，自动创建 collection 文件夹，每个集合 CSV 最多保存 99 条"
+    "Power 10.2plus 安装包",
+    "新增独立 Smart/Manual Collections GraphQL 创建请求生成功能，无需查询回包",
+    "Manual Collections 创建请求可按 Product ID 和位置同时关联产品",
+    "Pages 的 Body HTML 写入 Page.body，页面更新回包包含 bodySummary"
   ],
   "restart_args": []
 }
