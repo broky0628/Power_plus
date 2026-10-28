@@ -1,16 +1,15 @@
 {
-  "version": "10.2plus",
+  "version": "10.2.1plus",
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2plus/Power_Setup_v10.2plus.exe",
-  "file_name": "Power_Setup_v10.2plus.exe",
-  "sha256": "800a2e13d6d9346ae727888c3fe740951f47ee62a2a2b227dcb0989f877d4c73",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.1plus/Power_Setup_v10.2.1plus.exe",
+  "file_name": "Power_Setup_v10.2.1plus.exe",
+  "sha256": "a187e5e1b92e19324412ab783c68b84ae9f6d4c60923bbfdcd963dc6d4ff92e6",
   "mandatory": false,
   "install_mode": "open",
   "notes": [
-    "Power 10.2plus 安装包",
-    "新增独立 Smart/Manual Collections GraphQL 创建请求生成功能，无需查询回包",
-    "Manual Collections 创建请求可按 Product ID 和位置同时关联产品",
-    "Pages 的 Body HTML 写入 Page.body，页面更新回包包含 bodySummary"
+    "修复安装界面确认后没有执行安装的问题，改为独立安装窗口并显示安装结果",
+    "SerpApi 连接失败时显示脱敏后的底层原因和排查提示",
+    "保留 Shopify Smart / Manual Collections、产品关联和 Page 内容创建功能"
   ],
   "restart_args": []
 }
