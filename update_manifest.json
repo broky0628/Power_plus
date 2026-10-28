@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.3plus/Power_Setup_v10.2.3plus_InnoSetup.exe",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.4plus/Power_Setup_v10.2.4plus_InnoSetup.exe",
   "install_mode": "open",
-  "version": "10.2.3plus",
+  "version": "10.2.4plus",
   "notes": [
-    "改用 Inno Setup 安装包；安装时保留已有 .env 和 clause_config.json",
-    "修复打包环境中 HTTPS 请求失败的问题，恢复应用更新、公告和 SerpApi 网络请求",
-    "数据处理时自动生成 Smart Collections GraphQL 请求；系列 GraphQL 支持多个 CSV，只生成 Smart Collections 请求并跳过 Manual Collections",
-    "保留 Shopify Pages、Smart / Manual Collections 及其他现有功能"
+    "GraphQL Mutation .graphql 与 Variables .variables.json 保持为两个独立文件，在 Power 输出列表中归类为 GraphiQL 控制台代码",
+    "可在输出列表右键分别复制 Mutation 和 Variables 文件内容；多个 collection CSV 会先合并数据，再按每批最多 99 条生成请求",
+    "处理数据时自动生成 Smart Collections 请求，支持多个 CSV 输入并跳过 Manual Collections",
+    "使用 Inno Setup 安装包；保留已有 .env 和 clause_config.json，并保留 HTTPS 网络修复"
   ],
-  "file_name": "Power_Setup_v10.2.3plus_InnoSetup.exe",
-  "sha256": "2dc4f87b8fa8273b084948a8e401edd6985277b5feab6c48a66d1216dbb92ae0",
+  "file_name": "Power_Setup_v10.2.4plus_InnoSetup.exe",
+  "sha256": "2250a10b0b932ffd58eb6f12893011d562940166c581a6dfbf7b25c2af585c18",
   "mandatory": false,
   "restart_args": []
 }
