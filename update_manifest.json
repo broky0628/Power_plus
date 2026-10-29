@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.6plus/Power_Setup_v10.2.6plus_InnoSetup.exe",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.8plus/Power_Setup_v10.2.8plus_InnoSetup.exe",
   "install_mode": "open",
-  "version": "10.2.6plus",
+  "version": "10.2.8plus",
   "notes": [
-    "Collection CSV 分片仍保留；所有 collection CSV 合并生成一份 batch_001.graphql 和一份 batch_001.variables.json",
-    "Mutation 与 Variables 是两个独立文件，输出列表中同属 GraphiQL 控制台代码，可分别右键复制内容",
-    "只生成 Smart Collections 请求并跳过 Manual Collections；保留自动生成和多 CSV 输入",
-    "继续使用 Inno Setup 安装包；保留已有 .env、clause_config.json 和 HTTPS 网络修复"
+    "生成文件清单中的 .graphql Mutation 文件支持右键复制文件内容；.variables.json Variables 文件也可单独复制。",
+    "Mutation 和 Variables 保持为两个独立文件，并归入 GraphiQL 控制台代码分组。",
+    "保留 Smart Collections 自动生成、多 CSV 输入及合并请求功能；跳过 Manual Collections。",
+    "继续使用 Inno Setup，并保留 HTTPS 网络修复及已有 .env、clause_config.json。"
   ],
-  "file_name": "Power_Setup_v10.2.6plus_InnoSetup.exe",
-  "sha256": "8d4906195bdfa98c40c3ce89128278a0d48f15d374592d9028a709e492f67583",
+  "file_name": "Power_Setup_v10.2.8plus_InnoSetup.exe",
+  "sha256": "926cf4e740aaa6470e5b4c87879992fc1db415e583f4942e466eb1cbf03d60f7",
   "mandatory": false,
   "restart_args": []
 }
