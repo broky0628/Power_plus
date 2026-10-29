@@ -1,16 +1,16 @@
 {
   "channel": "stable",
-  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.8plus/Power_Setup_v10.2.8plus_InnoSetup.exe",
+  "download_url": "https://github.com/broky0628/Power_plus/releases/download/v10.2.9plus/Power_Setup_v10.2.9plus_InnoSetup.exe",
   "install_mode": "open",
-  "version": "10.2.8plus",
+  "version": "10.2.9plus",
   "notes": [
-    "生成文件清单中的 .graphql Mutation 文件支持右键复制文件内容；.variables.json Variables 文件也可单独复制。",
-    "Mutation 和 Variables 保持为两个独立文件，并归入 GraphiQL 控制台代码分组。",
-    "保留 Smart Collections 自动生成、多 CSV 输入及合并请求功能；跳过 Manual Collections。",
-    "继续使用 Inno Setup，并保留 HTTPS 网络修复及已有 .env、clause_config.json。"
+    "每个系列 CSV 仍按最多 99 行分片；所有系列 CSV 会合并后生成同一对 GraphQL 与 Variables 文件。",
+    "GraphQL 文件包含 ImportBatch001、ImportBatch002 等命名 Mutation，每个操作最多 50 个系列；在 GraphiQL 中逐个选择并运行，以避免单次成本超过 1000。",
+    "Variables JSON 合并所有批次；Mutation 与 Variables 保持两个独立文件，.graphql 文件可在生成文件清单中右键复制内容。",
+    "只生成 Smart Collections，跳过 Manual Collections；继续使用 Inno Setup，并保留 HTTPS 修复和已有 .env、clause_config.json。"
   ],
-  "file_name": "Power_Setup_v10.2.8plus_InnoSetup.exe",
-  "sha256": "926cf4e740aaa6470e5b4c87879992fc1db415e583f4942e466eb1cbf03d60f7",
+  "file_name": "Power_Setup_v10.2.9plus_InnoSetup.exe",
+  "sha256": "ad457d8be158c9a4a5ba7d46ce1e014317bfad6d814ad1588b33e6419edab5be",
   "mandatory": false,
   "restart_args": []
 }
